@@ -1,0 +1,14 @@
+Jag gick först tillbaka till C: med kommandot (cd ..) tills jag hamnade rätt. 
+Sedan skapade jag mappen GitRepos med kommandot (mkdir) och ändrade mapp med cd för att sedan skapa
+ underliggande mapp InluppgiftGitVSDN med samma kommando.
+
+ Jag skapade en fil med kommandot i mappen ovan (touch README.md)
+ 
+ Följde sedan denna guide för att länka ihop repository med Git.
+ echo "# Inlamningsuppgift_DN" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:danielnorberg1990-creator/Inlamningsuppgift_DN.git
+git push -u origin main
