@@ -12,3 +12,8 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:danielnorberg1990-creator/Inlamningsuppgift_DN.git
 git push -u origin main
+
+Efter detta så redigerar jag dokumentet README.md med följande kommandon:
+git add .
+git commit -m 'text'
+git push
