@@ -17,3 +17,6 @@ Efter detta så redigerar jag dokumentet README.md med följande kommandon:
 git add .
 git commit -m 'text'
 git push
+
+**Extra kommando som ni ville få med vid inlämning:**  
+Pull = Hämta senaste versionen från github.
